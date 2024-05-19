@@ -1,0 +1,83 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"); */
+.hero-section {
+  background-image: url(../assets/bg-image.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  object-fit: cover;
+}
+.hero-content {
+  margin-top: 81px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: auto;
+}
+
+.hero-sub-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search {
+  padding: 0px 16px;
+  display: flex;
+  width: 486px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  gap: 8px;
+  border-radius: 12px;
+}
+.home .search {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.search-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.jogja{
+    font-family: "Plus Jakarta Sans";
+    color: #ffa500;
+}
