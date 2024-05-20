@@ -43,4 +43,15 @@
     align-items: center;
     padding-top: 100px;
   }
+  .faq-answer.active {
+    display: block;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 16px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
   

@@ -1,32 +1,57 @@
-import '../styles/Navbar.css';
-import Logo from '../assets/Logo.svg'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "../styles/Navbar.css";
+import Logo from "../assets/Logo.svg";
 
 const Navbar = () => {
   return (
     <nav>
-        <img src={Logo} alt="Logo" />
+      <img src={Logo} alt="Logo" />
       <ul>
         <li>
-          <a href="" className="nav-link active">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+          >
             Beranda
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="pages/pameran.html" className="nav-link">
+          <NavLink 
+            to="/pameran" 
+            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+          >
             Pameran
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="" className="nav-link">
+          <NavLink 
+            to="/about" 
+            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+          >
             Tentang Kami
-          </a>
+          </NavLink>
         </li>
-        <div className="sign">
-          <button className="btn-primary">Daftar</button>
-          <button className="btn-secondary">Masuk</button>
-        </div>
+        <li className="sign">
+          <NavLink 
+            to="/register" 
+            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+          >
+            <button className="btn-primary">Daftar</button>
+          </NavLink>
+        </li>
+        <li className="sign">
+          <NavLink 
+            to="/login" 
+            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+          >
+            <button className="btn-secondary">Masuk</button>
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
 };
+
 export default Navbar;

@@ -1,28 +1,29 @@
 import "../styles/Testimonial.css";
 import Star from "../assets/Star.svg";
+import Profile from "../assets/Profile.png";
 
 const Testimonial = () => {
   const testimonials = [
     {
       review:
-        "Website ini sangat membantu sekali untuk mencari lokasi yang sedang diadakan daerah terdekat domisili saya",
-      name: "John Doe",
-      job: "Designer",
-      imgSrc: "img/Profile.png",
+        "Platform ini sangat bermanfaat untuk menemukan acara lokal yang relevan dengan minat saya.",
+      name: "Ayu Permata",
+      job: "Fotografer",
+      imgSrc: Profile,
     },
     {
       review:
-        "Website ini sangat membantu sekali untuk mencari lokasi yang sedang diadakan daerah terdekat domisili saya",
-      name: "Khufra",
-      job: "Komunitas Abstract Art",
-      imgSrc: "img/Profile.png",
+        "Situs ini memudahkan saya dalam mencari event komunitas yang diadakan dekat dengan lokasi saya.",
+      name: "Budi Santoso",
+      job: "Penggiat Komunitas",
+      imgSrc: Profile,
     },
     {
       review:
-        "Website ini sangat membantu sekali untuk mencari lokasi yang sedang diadakan daerah terdekat domisili saya",
-      name: "Marnix",
-      job: "Jungler",
-      imgSrc: "img/Profile.png",
+        "Layanan ini sangat membantu saya menemukan tempat-tempat menarik di sekitar saya dengan mudah.",
+      name: "Siti Nurhaliza",
+      job: "Pemandu Wisata",
+      imgSrc: Profile,
     },
   ];
 
