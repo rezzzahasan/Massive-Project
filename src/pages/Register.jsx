@@ -28,12 +28,12 @@ function Register() {
             <button type="submit" className="btn-primary">
               Register
             </button>
-            <p className="signup-text">
-              Sudah punya akun?{" "}
-              <a href="#" className="login-link">
+            <div className="signup-text">
+              <div>Sudah Punya Akun</div>
+              <a href="login" className="login-link">
                 Masuk 
               </a>
-            </p>
+            </div>
           </form>
         </div>
       </div>

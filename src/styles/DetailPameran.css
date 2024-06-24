@@ -1,0 +1,271 @@
+.breadcrumb {
+  width: fit-content;
+  color: var(--Base---Grey, #5e5e5e);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 40px 100px 20px;
+}
+
+.main-content {
+  padding: 0 100px;
+}
+.exhibition-card {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+  width: fit-content;
+}
+
+.exhibition-image img {
+  width: 680px;
+  height: 314px;
+}
+
+
+.exhibition-details {
+  border-radius: 8px;
+  border: 1px solid var(--light-grey-hover, #e7e7e7);
+  background: #fff;
+  display: inline-flex;
+  height: 314px;
+  padding: var(--Utilities-Height-4, 16px) 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exhibition-info {
+  margin-bottom: 20px;
+}
+
+.exhibition-info h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.exhibition-info p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 16px;
+  text-align: left;
+}
+
+.exhibition-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.exhibition-logo .span2 {
+  color: var(--Base---Grey, #5e5e5e);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.exhibition-logo .span3 {
+  color: var(--Darker---Grey, #212121);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: left;
+}
+
+.exhibition-logo img {
+  border-radius: 48px;
+  border: 1px solid var(--light-grey-hover, #e7e7e7);
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  width: 680px;
+  justify-content: center;
+}
+
+.tab-button {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 332px;
+  flex-shrink: 0;
+  height: fit-content;
+}
+
+.description-besar {
+  width: fit-content;
+  gap: 40px;
+  display: flex;
+  padding-bottom: 40px;
+}
+
+/* .conts{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+} */
+.conts2{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tab-content {
+  display: none;
+  border-radius: 8px;
+  max-width: 680px;
+}
+
+.tab-content h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.tab-content .teks {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tab-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tab-content ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.tab-content ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.ticket-purchase {
+  display: inline-flex;
+  padding: var(--Utilities-Height-4, 16px) 24px;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--light-grey-hover, #e7e7e7);
+  background: #fff;
+  width: 424px;
+  height: fit-content;
+}
+
+.ticket-besar {
+  display: flex;
+  gap: 40px;
+}
+
+.ticket-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-price {
+  font-size: 16px;
+  color: #212121;
+}
+
+.btn-buy-ticket {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  background: var(--Darker---Grey, #212121);
+}
+
+.btn-buy-ticket h3 {
+  color: var(--Light---Orange, #fff6eb);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-buy-ticket:hover {
+  background-color: #333;
+}
+
+.ticket-session {
+  display: flex;
+  width: 680px;
+  padding: var(--Utilities-Height-4, 16px) 32px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--light-grey-hover, #e7e7e7);
+  background: #f5f7fa;
+}
+
+.ticket-session p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.ticket-title {
+  color: #212121;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ticket-time,
+.ticket-end {
+  color: #666;
+}
+
+.ticket-end {
+  color: #3498db;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ticket-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ticket-actions span {
+  font-size: 16px;
+}
+
+.ticket-actions button {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}

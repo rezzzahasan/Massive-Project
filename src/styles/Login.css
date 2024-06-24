@@ -72,14 +72,6 @@
   text-decoration: underline;
 }
 
-.signup-text {
-  color: var(--Darker---Grey, #212121);
-  font-family: "Plus Jakarta Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 .signup-link {
   color: var(--Darker---Grey, #212121);
   font-family: "Plus Jakarta Sans";

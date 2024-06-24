@@ -1,3 +1,4 @@
+/* General navbar styles */
 nav {
   top: 0px;
   width: 100%;
@@ -30,20 +31,78 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--Primary-Color, #212121); /* Ganti dengan warna hover yang diinginkan */
+  color: var(
+    --Primary-Color,
+    #000000
+  ); /* Ganti dengan warna hover yang diinginkan */
 }
 
 nav ul li a.active {
-  color: var(--Primary-Color, #212121); /* Ganti dengan warna untuk link aktif */
+  color: var(
+    --Primary-Color,
+    #000000
+  ); /* Ganti dengan warna untuk link aktif */
   font-weight: bold;
 }
 
-.sign {
+/* Profile dropdown styles */
+.profile-dropdown {
+  position: relative;
+}
+
+.profile-dropdown button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
   display: flex;
-  gap: 16px;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  color: var(--Base---Grey, #5e5e5e);
+  transition: color 0.3s ease;
 }
 
-.sign button {
-  transition: background-color 0.3s ease, color 0.3s ease;
+.profile-dropdown button:hover {
+  color: var(
+    --Primary-Color,
+    #000000
+  ); /* Ganti dengan warna hover yang diinginkan */
 }
 
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  padding: 16px;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--Base---Grey, #5e5e5e);
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show dropdown menu on hover */
+.profile-dropdown:hover .dropdown-menu {
+  display: block;
+}

@@ -64,12 +64,15 @@
 
   
   .signup-text {
+    display: flex;
+    gap : 8px;
     color: var(--Darker---Grey, #212121);
     font-family: 'Plus Jakarta Sans';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    justify-content: center;
   }
   
   .login-link {

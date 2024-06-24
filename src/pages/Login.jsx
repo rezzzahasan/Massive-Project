@@ -4,7 +4,7 @@ import "../App.css";
 function Login() {
   return (
     <>
-        <Navbar />
+      <Navbar />
       <div className="Login">
         <div className="card-login">
           <h2 className="login-title">Masuk</h2>
@@ -25,7 +25,7 @@ function Login() {
             </button>
             <p className="signup-text">
               Belum punya akun?{" "}
-              <a href="#" className="signup-link">
+              <a href="/register" className="signup-link">
                 Daftar
               </a>
             </p>

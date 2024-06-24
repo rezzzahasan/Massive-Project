@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+.status-selesai {
+  color: green;
+}
+
+.status-pending {
+  color: orange;
+}
+
+.download-link {
+  color: blue;
+  text-decoration: none;
+}
+.s-riwayat {
+  height: 100vh;
+  margin: 121px 0px 50px 0px;
+}
+.download-link:hover {
+  text-decoration: underline;
+}
